@@ -8,12 +8,12 @@ so the requirement is to count how many character that match with the contract g
     -   0 is stand for vowel letters which contain a, e, i, o, u
         and 1 is stand for consonant.
     
-    -   if contract given is ```001``` then we need to find how many chacracter that matched in the raw data.
+    -   if contract given is "001" then we need to find how many chacracter that matched in the raw data.
 
 Example:
-    - contract:  ```00```
-    - rawData: ```aabbuu```
-    - expected: ```2```
+    contract:  ```00```
+    rawData: ```aabbuu```
+    expected: ```2```
 
 why ? cz the rawData with ```aa``` and ```uu``` are meet the contract with ```00 = vowel vowel```
 while others like ```ab, bb, bu``` are did't meet the contract.
