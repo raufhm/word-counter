@@ -1,42 +1,28 @@
 package util
 
 func ContractMatch(pattern string, s string) int {
-	patternArr := []string{}
-	for _, p := range pattern {
-		if string(p) == "0" {
-			patternArr = append(patternArr, string(p))
-		} else {
-			patternArr = append(patternArr, string(p))
-		}
-	}
-
-	contractLen := len(patternArr)
-	dataArr := []string{}
-	for _, data := range s {
-		dataArr = append(dataArr, string(data))
-	}
-
+	contractLen := len([]rune(pattern))
+	dataArr := []rune(s)
 	result := 0
 	for idx := range dataArr {
 		if len(dataArr)-idx < contractLen {
 			break
 		}
-		matchCount := checkMatchdData(patternArr, dataArr[idx:idx+contractLen])
+		matchCount := checkMatchdData([]rune(pattern), dataArr[idx:idx+contractLen])
 		result += matchCount
 	}
-
 	return result
 }
 
-func checkMatchdData(contract []string, rawData []string) int {
+func checkMatchdData(contract []rune, rawData []rune) int {
 	matchCounter := 0
 	for idx, d := range rawData {
 		for i, c := range contract {
 			if idx != i {
 				continue
 			}
-			response := checkExistVowel(d)
-			if response == c {
+			response := checkExistVowel(string(d))
+			if response == string(c) {
 				matchCounter++
 				break
 			}
