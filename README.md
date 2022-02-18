@@ -1,6 +1,7 @@
 #### Contract Match
 
 I document my very late solution for challenge in one of coding assessment platform that I did yesterday.
+
 so the requirement is to count how many character that match with the contract given.
 
 ##### requirement: 
