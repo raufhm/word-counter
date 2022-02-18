@@ -19,7 +19,8 @@ why ? cz the rawData with ```aa``` and ```uu``` are meet the contract with ```00
 while others like ```ab, bb, bu``` are did't meet the contract.
 
 Finally, I hope you understand what I want to share here, 
-I believe there're another that probably much better than this solution.
+I believe there're another ways that probably much better than this solution.
+
 so feel free to add some feedback and happy coding ☕
 
 cheers!
