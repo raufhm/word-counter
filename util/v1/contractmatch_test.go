@@ -31,6 +31,11 @@ func TestContractMatch(t *testing.T) {
 			rawData:  "aiibbocceccdihh",
 			expected: 4,
 		},
+		{
+			contract: "00",
+			rawData:  "aabbuu",
+			expected: 2,
+		},
 	}
 
 	for _, r := range raw {
