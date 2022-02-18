@@ -4,8 +4,10 @@ I document my very late solution for challenge in one of coding assessment platf
 so the requirement is to count how many character that match with the contract given.
 
 ##### requirement: 
-    - ```0``` is stand for vowel letters which contain ```a, e, i, o, u``` and ```1``` is stand for consonant.
-    - if contract given is ```001``` then we need to find how many chacracter that matched in the raw data.
+    -   ```0``` is stand for vowel letters which contain ```a, e, i, o, u``` 
+        and ```1``` is stand for consonant.
+    
+    -   if contract given is ```001``` then we need to find how many chacracter that matched in the raw data.
 
 Example:
     - contract:  ```00```
