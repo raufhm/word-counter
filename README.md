@@ -1,4 +1,4 @@
-### Contract Match
+#### Contract Match
 
 I document my very late solution for challenge in one of coding assessment platform that I did yesterday.
 so the requirement is to count how many character that match with the contract given.
@@ -11,8 +11,8 @@ so the requirement is to count how many character that match with the contract g
     -   if contract given is "001" then we need to find how many chacracter that matched in the raw data.
 
 Example:
-    contract:  ```00```
-    rawData: ```aabbuu```
+    contract:  ```00```,
+    rawData: ```aabbuu```,
     expected: ```2```
 
 why ? cz the rawData with ```aa``` and ```uu``` are meet the contract with ```00 = vowel vowel```
