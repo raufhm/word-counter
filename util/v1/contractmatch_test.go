@@ -40,6 +40,6 @@ func TestContractMatch(t *testing.T) {
 
 	for _, r := range raw {
 		result := util.ContractMatch(r.contract, r.rawData)
-		assert.Equal(t, result, r.expected)
+		assert.Equal(t, r.expected, result)
 	}
 }
