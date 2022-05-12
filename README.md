@@ -1,4 +1,4 @@
-#### Contract Match
+#### word-counter
 
 I document my very late solution for challenge in one of coding assessment platform that I did yesterday.
 
